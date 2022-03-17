@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+      
+        margin-top: 4rem;
+      }
+      .container div {
+        width: 70px;
+        height: 60px;
+        border: 1px solid black;
+      }
+      div{
+        display: inline-block;
+      }
+      div:nth-child(2n){
+        border-color: red;
+      }
+      .one span:nth-of-type(2n) {
+      color: green;
+      }
+      .three span:nth-of-type(2n) {
+      color: green;
+      }
+      .five span:nth-of-type(2n) {
+      color: green;
+      }
+
+       .seven span:nth-of-type(2n) {
+      color: green;
+      }
+      .nine span:nth-of-type(2n) {
+      color: green;
+      }
+      .two span:last-of-type {
+      color: skyblue;
+      }
+      .six span:not(:last-of-type){
+        color: gold;
+      }
+      span:first-of-type{
+        position: absolute;
+        top: 135px;
+      }
+      span:nth-of-type(2){
+        position: absolute;
+        top: 50px;  
+      }
+      .ten span:last-of-type {
+      position: absolute;
+      left:750px;
+      top: 90px;
+      }
+      .one span:last-of-type{
+        position: absolute;
+        left:0px;
+        top: 90px;
+      }
+      .container  {
+
+      font-size:0;
+      }
+      .container div {
+
+      font-size:1rem;
+      }
+
+ 
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="one">
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="two">
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="three">
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="four">
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="five">
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="six">
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="seven">
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="eight">
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="nine">
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="ten">
+        <span>A</span>
+        <span>B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+    </div>
+  </body>
+</html>
